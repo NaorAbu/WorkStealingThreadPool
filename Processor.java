@@ -1,4 +1,4 @@
-package bgu.spl.a2;
+package WorkStealingThreadPool;
 
 /**
  * this class represents a single work stealing processor, it is
