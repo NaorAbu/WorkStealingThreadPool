@@ -1,11 +1,8 @@
-package bgu.spl.a2; /**
+package WorkStealingThreadPool; /**
  * 
  */
 
-
-
-
-import bgu.spl.a2.sim.Product;
+import WorkStealingThreadPool.sim.Product;
 
 import java.io.*;
 import java.util.concurrent.ConcurrentLinkedQueue;
