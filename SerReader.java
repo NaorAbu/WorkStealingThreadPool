@@ -1,7 +1,7 @@
 package WorkStealingThreadPool; /**
  * 
  */
-
+/* This is optional JSON deserializer using for the WareHouse run by the WorkStealingThreadPool */
 import WorkStealingThreadPool.sim.Product;
 
 import java.io.*;
@@ -14,7 +14,7 @@ public class SerReader {
 	public static void main(String[] args) {
 		AtomicBoolean flag = new AtomicBoolean(false);
 		
-		System.out.println("SPL171 deserializer for assignment 2\n\n");
+		System.out.println("deserializer for WorkStealingThreadPool\n\n");
 
 		SerReader obj = new SerReader();
 
