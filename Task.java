@@ -1,4 +1,4 @@
-package bgu.spl.a2;
+package WorkStealingThreadPool;
 
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicBoolean;
