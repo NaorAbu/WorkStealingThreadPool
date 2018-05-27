@@ -1,0 +1,123 @@
+{
+    "threads": 4,
+
+    "tools": [
+        {
+            "tool": "gs-driver",
+            "qty": 35
+        },
+        {
+            "tool": "np-hammer",
+            "qty": 17
+        },
+        {
+            "tool": "rs-pliers",
+            "qty": 23
+        }
+    ],
+    "plans": [
+        {
+            "product": "yphone30",
+            "tools": ["gs-driver", "rs-pliers"],
+            "parts": ["5'-screen", "round-button"]
+        },
+        {
+            "product": "yphone30-pro",
+            "tools": ["gs-driver", "np-hammer"],
+            "parts": ["6'-screen", "round-button", "camera"]
+        },
+        {
+            "product": "yphone30-pro-plus",
+            "tools": ["gs-driver", "np-hammer", "rs-pliers"],
+            "parts": ["10'-screen", "round-button", "camera", "headphone-jack"]
+        },
+        {
+            "product": "5'-screen",
+            "tools": ["np-hammer"],
+            "parts": ["glass", "touch-controller"]
+        },
+        {
+            "product": "6'-screen",
+            "tools": ["np-hammer", "rs-pliers"],
+            "parts": ["glass", "touch-controller"]
+        },
+        {
+            "product": "10'-screen",
+            "tools": [],
+            "parts": ["5'-screen", "5'-screen"]
+        },
+        {
+            "product": "round-button",
+            "tools": ["gs-driver"],
+            "parts": ["round-stuff", "electrical-things"]
+        },
+        {
+            "product": "camera",
+            "tools": ["gs-driver", "rs-pliers"],
+            "parts": ["glass", "round-stuff"]
+        },
+        {
+            "product": "headphone-jack",
+            "tools": ["rs-pliers"],
+            "parts": ["round-stuff"]
+        },
+        {
+            "product": "touch-controller",
+            "tools": ["rs-pliers", "np-hammer"],
+            "parts": ["electrical-things"]
+        },
+        {
+            "product": "glass",
+            "tools": ["np-hammer"],
+            "parts": []
+        },
+        {
+            "product": "round-stuff",
+            "tools": ["rs-pliers"],
+            "parts": []
+        },
+        {
+            "product": "electrical-things",
+            "tools": ["gs-driver"],
+            "parts": []
+        }
+    ],
+    "waves": [
+        [
+            {
+                "product": "yphone30",
+                "qty": 2,
+                "startId": 50123450
+            },
+            {
+                "product": "yphone30-pro",
+                "qty": 2,
+                "startId": 50234560
+            },
+            {
+                "product": "yphone30-pro-plus",
+                "qty": 3,
+                "startId": 502345601
+            }
+
+        ],
+        [
+            {
+                "product": "yphone30",
+                "qty": 2,
+                "startId": 501623450
+            },
+            {
+                "product": "yphone30-pro",
+                "qty": 3,
+                "startId": 560234560
+            },
+            {
+                "product": "yphone30-pro-plus",
+                "qty": 2,
+                "startId": 5602345601
+            }
+        ]
+    ]
+
+}

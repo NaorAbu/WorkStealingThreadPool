@@ -1,0 +1,64 @@
+{
+  "threads": 1,
+
+  "tools": [
+    {
+      "tool": "gs-driver",
+      "qty": 1
+    },
+    {
+      "tool": "np-hammer",
+      "qty": 1
+    },
+    {
+      "tool": "rs-pliers",
+      "qty": 1
+    }
+  ],
+  "plans": [
+    {
+      "product": "yphone30",
+      "tools": ["gs-driver", "rs-pliers"],
+      "parts": ["5'-screen", "round-button"]
+    },
+    {
+      "product": "5'-screen",
+      "tools": ["np-hammer"],
+      "parts": ["glass", "touch-controller"]
+    },
+    {
+      "product": "round-button",
+      "tools": ["gs-driver"],
+      "parts": ["round-stuff", "electrical-things"]
+    },
+    {
+      "product": "touch-controller",
+      "tools": ["rs-pliers", "np-hammer"],
+      "parts": ["electrical-things"]
+    },
+    {
+      "product": "glass",
+      "tools": ["np-hammer"],
+      "parts": []
+    },
+    {
+      "product": "round-stuff",
+      "tools": ["rs-pliers"],
+      "parts": []
+    },
+    {
+      "product": "electrical-things",
+      "tools": ["gs-driver"],
+      "parts": []
+    }
+  ],
+  "waves": [
+    [
+      {
+        "product": "yphone30",
+        "qty": 1,
+        "startId": 50123450
+      }
+    ]
+  ]
+}
