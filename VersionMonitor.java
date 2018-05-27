@@ -1,4 +1,4 @@
-package bgu.spl.a2;
+package WorkStealingThreadPool;
 
 /**
  * Describes a monitor that supports the concept of versioning - its idea is
