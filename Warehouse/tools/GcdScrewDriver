@@ -1,0 +1,40 @@
+package WorkStealingThreadPool.Warehouse.tools;
+
+importWorkStealingThreadPool.Warehouse.Product;
+
+import java.math.BigInteger;
+
+public class GcdScrewDriver implements Tool {
+
+
+    @Override
+    public String getType() {
+        return "gs-driver";
+    }
+
+    @Override
+    public long useOn(Product p) {
+        long value = 0;
+        for (Product part : p.getParts()) {
+            value += Math.abs(func(part.getFinalId()));
+        }
+        return value;
+    }
+
+    private long func(long id) {
+
+        BigInteger b1 = BigInteger.valueOf(id);
+        BigInteger b2 = BigInteger.valueOf(reverse(id));
+        return (b1.gcd(b2)).longValue();
+    }
+
+    private long reverse(long n) {
+        long reverse = 0;
+        while (n != 0) {
+            reverse = reverse * 10;
+            reverse = reverse + n % 10;
+            n = n / 10;
+        }
+        return reverse;
+    }
+}
